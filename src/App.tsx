@@ -37,6 +37,7 @@ function App() {
             path="contact"
             element={
               <Suspense fallback={<>...</>}>
+                <Header />
                 <Contact />
               </Suspense>
             }
